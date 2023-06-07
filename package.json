@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "serve": "nodemon bin/www",
     "start": "node bin/www",
     "dev": "./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www",
@@ -19,10 +20,12 @@
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "koa-views": "^6.2.0",
+    "koa2-swagger-ui": "^5.8.0",
     "pug": "^2.0.3",
+    "swagger-jsdoc": "^6.2.8",
     "tls-sig-api-v2": "^1.0.2"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.22"
   }
 }
